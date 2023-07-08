@@ -20,9 +20,9 @@ app.get("/weatherReport", function(req,res){
 app.post("/weatherReport",function(req,res){
  
   const cityName=req.body.cityName;
-  const apiKey = process.env.SECRET_KEY;
-  console.log(apiKey);
-  const url = "https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&appid="+apiKey+"&units=metric";
+  // const apiKey = process.env.SECRET_KEY;
+  // console.log(apiKey);
+  const url = "https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&appid="+"bb688e702bad696a8a9a3186a356a498"+"&units=metric";
   
   https.get(url, (response) => {
     console.log('statusCode:', response.statusCode);
