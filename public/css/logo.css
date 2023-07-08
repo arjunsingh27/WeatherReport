@@ -1,0 +1,36 @@
+/* logo animation */
+.logo-container{
+    display: inline-block;
+    position:relative;
+  }
+  
+  #logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;/* Maintain the aspect ratio */
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #logo:hover {
+    animation: bounce 0.5s ease-out;
+  }
+  
+  
+  /* menu animation */ 
+  
+  /* .menu-list-container{
+    display: inline-block;
+    position:relative;
+  } */
+
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+     
+     
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  } 

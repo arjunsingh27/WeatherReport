@@ -1,0 +1,12 @@
+<%- include("partials/header")-%>
+<div class="errorContainer">
+    <h1><%=cityNotFound%></h1>
+    <button onclick="redirect()">Retry</button>
+</div>
+<script>
+function redirect() {
+    window.location.href = '/weatherReport';
+}
+</script>
+ 
+<%- include("partials/footer")-%>
