@@ -11,7 +11,8 @@ app.set('view engine', 'ejs');
 app.use(express.static("public"));
 
 app.get("/", function(req,res){
-  res.render("home",);
+  // res.render("home",);
+  res.redirect("/weatherReport");//redirecting weather report page
 });
  
 app.get("/weatherReport", function(req,res){
@@ -20,7 +21,9 @@ app.get("/weatherReport", function(req,res){
 app.post("/weatherReport",function(req,res){
  
   const cityName=req.body.cityName;
-  const url = "https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&appid="+process.env.SECRET_KEY+"&units=metric";
+  // const apiKey = process.env.SECRET_KEY;
+  // console.log(apiKey);
+  const url = "https://api.openweathermap.org/data/2.5/weather?q="+cityName+"&appid="+"bb688e702bad696a8a9a3186a356a498"+"&units=metric";
   
   https.get(url, (response) => {
     console.log('statusCode:', response.statusCode);
