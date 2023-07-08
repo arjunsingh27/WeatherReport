@@ -11,7 +11,8 @@ app.set('view engine', 'ejs');
 app.use(express.static("public"));
 
 app.get("/", function(req,res){
-  res.render("home",);
+  // res.render("home",);
+  res.redirect("/weatherReport");//redirecting weather report page
 });
  
 app.get("/weatherReport", function(req,res){
