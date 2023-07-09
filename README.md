@@ -1,4 +1,4 @@
- ![Weather Report Screenshot](https://ibb.co/mG39tPN)
+<img src="https://github.com/arjunsingh27/WeatherReport/blob/main/public/images/Screenshot%202023-07-09%20at%2012.01.26%20PM.png" width="100%" height="150px">
 
 Weather Report
 
