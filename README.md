@@ -1,6 +1,6 @@
 <img src="https://github.com/arjunsingh27/WeatherReport/blob/main/public/images/Screenshot%202023-07-09%20at%2012.01.26%20PM.png" width="100%">
 
-Weather Report
+<h1>Weather Report</h1>
 
 This is a weather report application that utilizes a weather API to display the current weather conditions. With this application, you can retrieve real-time weather information for any location around the world.
 
@@ -8,7 +8,7 @@ Accessing the Application
 
 You can access the Weather Report application through the following URL: https://weatherreport-w88p.onrender.com
 
-Features
+<h2>Features</h1>
 
 Display current weather conditions including temperature, humidity, wind speed, and weather description.
 Support for searching weather information by location name or coordinates.
@@ -25,7 +25,7 @@ To switch between Celsius and Fahrenheit temperature units, click on the unit sy
 You can also allow the application to access your current location by clicking the "Use My Location" button. This will retrieve the weather information for your current whereabouts.
 Contributing
 
-If you would like to contribute to the Weather Report application, please follow the guidelines below:
+<h3>If you would like to contribute to the Weather Report application, please follow the guidelines below.</h3>
 
 Fork the repository and create a new branch for your contribution.
 Make your changes and test thoroughly.
@@ -35,7 +35,6 @@ License
 
 The Weather Report application is open source and available under the MIT License. Feel free to use, modify, and distribute the application according to the terms of the license.
 
-Credits
-
-This application uses the Weather Icons by Erik Flowers, licensed under the SIL OFL 1.1 License.
+<h3>Credits</h3>
+This application uses the Weatherapi.
 The Weather Report application is developed by [Arjun Singh].
