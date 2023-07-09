@@ -1,4 +1,5 @@
-<img src="https://ibb.co/mG39tPN" width="100%" higth="400px" >
+ ![Weather Report Screenshot](https://ibb.co/mG39tPN)
+
 Weather Report
 
 This is a weather report application that utilizes a weather API to display the current weather conditions. With this application, you can retrieve real-time weather information for any location around the world.
