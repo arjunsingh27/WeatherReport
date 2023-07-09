@@ -1,4 +1,4 @@
-<img src="https://github.com/arjunsingh27/WeatherReport/blob/main/public/images/Screenshot%202023-07-09%20at%2012.01.26%20PM.png" width="100%" height="150px">
+<img src="https://github.com/arjunsingh27/WeatherReport/blob/main/public/images/Screenshot%202023-07-09%20at%2012.01.26%20PM.png" width="100%">
 
 Weather Report
 
